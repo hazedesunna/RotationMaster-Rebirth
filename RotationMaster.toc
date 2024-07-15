@@ -1,0 +1,77 @@
+## Interface: 90207
+## Title: Rotation Master
+## Version: 1.15.3
+## Author: Makiel
+## Notes: I wanted to save the world, but God wouldn't give me the source code.
+## X-Email: prez@neuromancy.net
+## X-Website: https://github.com/corporategoth/rotationmaster/wiki
+## X-BugReport: https://github.com/corporategoth/rotationmaster/issues
+## X-Category: Action Bars
+## X-WoWI-ID: 25079
+## X-Curse-Project-ID: 301085
+## X-Wago-ID: vEGPM4N1
+## X-Project-Revision: 234
+## X-ReleaseDate: 2022-09-30T07:53:26Z
+## SavedVariables: RotationMasterDB
+## OptionalDeps: Ace3, LibAboutPanel-2.0, LibDBIcon-1.0, LibDataBroker-1.1, LibCompress, CallbackHandler-1.0, LibCustomGlow, ThreatClassic-1.0, LibClassicDurations
+## X-Embeds: AceGUI-3.0-ActionSlotWidgets, AceGUI-3.0-Item-EditBox, AceGUI-3.0-Spell-EditBox
+## X-Credits: None
+## X-License: MIT
+## X-Author-Server: Atiesh
+## X-Author-Faction: Horde
+
+globals.lua
+embeds.xml
+locales.xml
+constants.lua
+utils.lua
+profiler.lua
+main.lua
+buttons.lua
+init.lua
+validate.lua
+
+Widgets/help.lua
+Widgets/directional.lua
+Widgets/disable_inline.lua
+
+# Configuration UI
+Options/general.lua
+Options/effects.lua
+Options/announce.lua
+Options/itemset.lua
+Options/rotations.lua
+Options/custom_condition.lua
+Options/conditions.lua
+Options/conditional.lua
+
+# Help Files
+Help/common.lua
+Help/general.lua
+Help/effects.lua
+Help/announce.lua
+Help/itemsets.lua
+Help/rotations.lua
+Help/custom_condition.lua
+Help/conditions.lua
+Help/conditional.lua
+
+# Conditions
+Conditions/common.lua
+Conditions/character.lua
+Conditions/stats.lua
+Conditions/ext_stats.lua
+Conditions/spell.lua
+Conditions/anyspell.lua
+Conditions/petspell.lua
+Conditions/buffs.lua
+Conditions/debuffs.lua
+Conditions/totem.lua
+Conditions/item.lua
+Conditions/combat.lua
+Conditions/casting.lua
+Conditions/channeling.lua
+Conditions/spatial.lua
+Conditions/spatial_stats.lua
+Conditions/weapon.lua
+Conditions/misc.lua
